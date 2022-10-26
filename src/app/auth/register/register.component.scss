@@ -1,0 +1,18 @@
+@media (min-width: 1200px) {
+    .sidenav:hover {
+      max-width: 15.625rem;
+    }
+  
+    .sidenav .sidenav-toggler {
+      padding: 1.5rem;
+    }
+  
+    .main-content {
+      /* margin-left: 17.125rem; */
+      margin-left: 0rem;
+    }
+  
+    .sidenav.fixed-end+.main-content {
+      margin-right: 17.125rem;
+    }
+  }
